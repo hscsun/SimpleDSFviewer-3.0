@@ -1,18 +1,18 @@
 <deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
-  <configuration build-checksum="738250615" file="/Users/Changye/Documents/GitHub/SimpleDSFviewer_Update2/Matlab Code/Mac version/SimpleDSFviewer.prj" location="/Users/Changye/Documents/GitHub/SimpleDSFviewer_Update2/Matlab Code/Mac version" name="SimpleDSFviewer" preferred-package-location="/Users/Changye/Documents/GitHub/SimpleDSFviewer_Update2/Matlab Code/Mac version/SimpleDSFviewer/for_redistribution" preferred-package-type="package.type.app" target="target.ezdeploy.standalone" target-name="Application Compiler">
+  <configuration build-checksum="2858711436" file="/Users/Changye/Documents/GitHub/SimpleDSFviewer-3.0/Matlab Code/Mac version/SimpleDSFviewer.prj" location="/Users/Changye/Documents/GitHub/SimpleDSFviewer-3.0/Matlab Code/Mac version" name="SimpleDSFviewer" preferred-package-location="/Users/Changye/Documents/GitHub/SimpleDSFviewer-3.0/Matlab Code/Mac version/SimpleDSFviewer/for_redistribution" preferred-package-type="package.type.app" target="target.ezdeploy.standalone" target-name="Application Compiler">
     <param.appname>SimpleDSFviewer</param.appname>
     <param.icon />
     <param.icons />
-    <param.version>1.0</param.version>
-    <param.authnamewatermark>Changye Sun</param.authnamewatermark>
-    <param.email>hscsun@outlook.com</param.email>
-    <param.company>Xinxiang Medical University</param.company>
+    <param.version>3.0</param.version>
+    <param.authnamewatermark>ChangyeSun</param.authnamewatermark>
+    <param.email />
+    <param.company />
     <param.summary />
     <param.description />
-    <param.screenshot>/Users/Changye/Documents/OneDrive/DSF.png</param.screenshot>
+    <param.screenshot />
     <param.guid />
     <param.net.saved.interface />
-    <param.installpath.string>/Xinxiang_Medical_University/SimpleDSFviewer/</param.installpath.string>
+    <param.installpath.string>/SimpleDSFviewer/</param.installpath.string>
     <param.installpath.combo>option.installpath.systemwideapp</param.installpath.combo>
     <param.logo />
     <param.install.notes />
@@ -41,9 +41,11 @@
     <unset>
       <param.icon />
       <param.icons />
-      <param.version />
+      <param.email />
+      <param.company />
       <param.summary />
       <param.description />
+      <param.screenshot />
       <param.guid />
       <param.net.saved.interface />
       <param.installpath.string />
@@ -78,19 +80,12 @@
       <file>${PROJECT_ROOT}/smomcurve.m</file>
       <file>${PROJECT_ROOT}/smomcurveCut.m</file>
     </fileset.resources>
-    <fileset.package>
-      <file>${PROJECT_ROOT}/SimpleDSFviewer.m</file>
-      <file>${PROJECT_ROOT}/mapTm.m</file>
-      <file>${PROJECT_ROOT}/normalisemc.m</file>
-      <file>${PROJECT_ROOT}/peaknumbers.m</file>
-      <file>${PROJECT_ROOT}/smomcurve.m</file>
-      <file>${PROJECT_ROOT}/smomcurveCut.m</file>
-    </fileset.package>
+    <fileset.package />
     <build-deliverables>
-      <file location="${PROJECT_ROOT}/SimpleDSFviewer/for_testing" name="run_SimpleDSFviewer.sh" optional="false">/Users/Changye/Documents/GitHub/SimpleDSFviewer_Update2/Matlab Code/Mac version/SimpleDSFviewer/for_testing/run_SimpleDSFviewer.sh</file>
-      <file location="${PROJECT_ROOT}/SimpleDSFviewer/for_testing" name="SimpleDSFviewer.app" optional="false">/Users/Changye/Documents/GitHub/SimpleDSFviewer_Update2/Matlab Code/Mac version/SimpleDSFviewer/for_testing/SimpleDSFviewer.app</file>
-      <file location="${PROJECT_ROOT}/SimpleDSFviewer/for_testing" name="splash.png" optional="false">/Users/Changye/Documents/GitHub/SimpleDSFviewer_Update2/Matlab Code/Mac version/SimpleDSFviewer/for_testing/splash.png</file>
-      <file location="${PROJECT_ROOT}/SimpleDSFviewer/for_testing" name="readme.txt" optional="true">/Users/Changye/Documents/GitHub/SimpleDSFviewer_Update2/Matlab Code/Mac version/SimpleDSFviewer/for_testing/readme.txt</file>
+      <file location="${PROJECT_ROOT}/SimpleDSFviewer/for_testing" name="readme.txt" optional="true">/Users/Changye/Documents/GitHub/SimpleDSFviewer-3.0/Matlab Code/Mac version/SimpleDSFviewer/for_testing/readme.txt</file>
+      <file location="${PROJECT_ROOT}/SimpleDSFviewer/for_testing" name="run_SimpleDSFviewer.sh" optional="false">/Users/Changye/Documents/GitHub/SimpleDSFviewer-3.0/Matlab Code/Mac version/SimpleDSFviewer/for_testing/run_SimpleDSFviewer.sh</file>
+      <file location="${PROJECT_ROOT}/SimpleDSFviewer/for_testing" name="SimpleDSFviewer.app" optional="false">/Users/Changye/Documents/GitHub/SimpleDSFviewer-3.0/Matlab Code/Mac version/SimpleDSFviewer/for_testing/SimpleDSFviewer.app</file>
+      <file location="${PROJECT_ROOT}/SimpleDSFviewer/for_testing" name="splash.png" optional="false">/Users/Changye/Documents/GitHub/SimpleDSFviewer-3.0/Matlab Code/Mac version/SimpleDSFviewer/for_testing/splash.png</file>
     </build-deliverables>
     <workflow />
     <matlab>
